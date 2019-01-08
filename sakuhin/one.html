@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>      
+    <head>
+<!-- ページタイトル -->
+        <title>ONE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+<!-- ページ背景色 -->
+<!-- ヘッダー背景色 -->
+<!-- article背景色 -->
+<!-- aside背景色 -->
+<!-- footer背景色 -->
+<!-- トップメニューをフレキシブルにする　 -->
+<!-- トップメニューを伸長比1　 -->
+<!-- 構成を2つに分ける　articleとaside　 -->        
+<!-- 表題と記事の詳細　 -->   
+<!-- フッターメニュー　背景色と点消し　 -->   
+
+<style>
+      
+            body {
+	background-color: #e6e6e6;
+}
+         
+              header{
+	background-color: white;
+}           
+          
+              article{
+	background-color: white;
+}           
+   
+              aside{
+	background-color: white;
+}      
+    
+              footer{
+	background-color: white;
+}     
+
+  
+.menu ul {
+	display: flex;
+}
+     
+.menu li {
+	flex: 1;
+	list-style-type: none;
+}
+
+
+.container{
+ 	display: flex;   
+}
+
+th{
+	margin: 10px 0;
+	padding: 5px 10px;
+	font-size: 20px;
+	background: #f3c90b;    
+}
+
+td{
+	margin: 0;
+	padding: 10px;
+	font-size: 16px;
+	border: solid 2px #ff8e52;    
+}
+
+
+.osusume li {
+	list-style-type: none;
+}
+
+
+
+        </style>
+    
+    </head>
+    <body>
+        <header>
+            <!-- タイトル　リンク先未定　 -->  
+            <div class="site">
+                <a href="">ONE</a>
+            </div>
+            
+            <!-- トップメニュー　リンク先未定　 -->  
+            <nav class="menu">
+                <ul>
+                    <li><a href="">トップ   </a></li>
+                    <li><a href="">メニュー </a></li>
+                    <li><a href="">その他   </a></li>                    
+                </ul>
+            </nav>     
+        </header>
+        
+        <!-- 本文　 -->         
+        <div class="container">
+            
+            <!-- 本文１　 -->         
+            <article>
+                
+                <!-- 画像３枚　横並び　 -->  
+                <div align="center">
+                    <img src="img/DSC_0055.JPG" alt="" width="200" height="200"><img src="img/DSC_0055.JPG" alt="" width="200" height="200"><img src="img/DSC_0055.JPG" alt="" width="200" height="200">
+                </div>
+                
+                 <!-- 記事を３つ表示　横並び　 -->             
+                <table>
+                    <tr>
+                        <th>一つ目</th><th>二つ目</th><th>三つ目</th>
+                    </tr>
+                    <tr>
+                        <td>寒い。寒い。寒い。寒い。</td>
+                        <td>寒い。寒い。寒い。寒い。</td>
+                        <td>寒い。寒い。寒い。寒い。</td>
+                    </tr>
+                </table>
+            </article>
+
+        <!-- サブ１　 -->         
+            <aside class="osusume">
+                <h2>おすすめ記事</h2>
+                <ul>
+                    <li><a href="#"><img src="img/DSC_0243 (縮尺).JPG" alt=""><br>お気に入りのカラーマーカー</a></li>
+                    <li><a href="#"><img src="img/DSC_0244 (縮尺).JPG" alt=""><br>音楽をききながら仕事するといろいろ捗るとか捗らないとか</a></li>
+                    <li><a href="#"><img src="img/DSC_0248 (縮尺).JPG" alt=""><br>ノートパソコンがぴったり収まる軽量バックパック</a></li>
+                </ul>
+            </aside>
+        </div>
+ 
+        <!-- フッター　メニュー　 -->                 
+        <footer>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">終わり   </a></li>
+                    <li><a href="">終わる </a></li>
+                    <li><a href="">終われ   </a></li>                    
+                </ul>
+            </nav>            
+            <small>@ one one one</small>
+        </footer>
+    </body>
+</html>
